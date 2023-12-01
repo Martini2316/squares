@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#counter {
+    color: white; 
+    position: absolute;
+    left: 55%;
+    width: 200px; 
+    height:60px;
+}
+
+#container{
+    display: block;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+button{
+    width: 300px;
+    margin-top: 80px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid green;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
